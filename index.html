@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner container">
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#whats-new">Что нового</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#color">Цвет</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#feedback">Заказать</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__logo-wrapper">
+        <a class="header__logo logo" href="/" title="Перейти на главную страницу">
+          <img
+            class="logo__image"
+            src="./images/logo.svg"
+            alt="Apple Logo"
+            width="40" height="48" loading="lazy"
+          />
+        </a>
+      </div>
+      <div class="header__contacts contacts">
+        <a class="contacts__link" href="tel:+380504565656">+38 050-456-56-56</a>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <section class="hero">
+      <div class="hero__inner container">
+        <h1 class="hero__title">iPhone 14 Pro</h1>
+        <img
+          class="hero__image"
+          src="./images/hero.png"
+          alt="Варианты моделей iPhone 14"
+          width="937" height="657" loading="lazy"
+        >
+        <a class="hero__button button button--purple" href="#color">Выбрать</a>
+      </div>
+    </section>
+    <section class="section" id="whats-new">
+      <div class="section__inner container">
+        <h2 class="section__title">Что нового</h2>
+        <div class="section__body">
+          <div class="whats-new">
+            <div class="whats-new__description">
+              <p>Все модели оснащены однокристальной системой A16 Bionic, 48-мегапиксельной основной камерой и экранами ProMotion с защитой Ceramic Shield и частотным диапазоном 1 — 120 Гц, а также ускоренной памятью LPDDR5. Дизайн линейки обновлен, на фронтальной панели смартфонов два выреза. </p>
+              <p>Все iPhone 14 в США будут продаваться без лотка для SIM-карт: производитель заявляет, что улучшенная технология eSIM позволит перенести старые электронные сим-карты на новые смартфоны.</p>
+              <p>Обновлены фронтальная камера (она снабжена автофокусом и быстрее распознает пользователя в условиях недостаточной освещенности) и сенсор основной камеры.</p>
+              <p>
+                <b>iPhone 14 Pro вышел в новом дизайне — без фирменной «челки». Также в ассортименте появился новый цвет. В смартфоне, в отличие от «обычных» 14-х айфонов, установлен процессор A16 Bionic, который может за секунду производить 4 трлн операций с фото.
+                </b>
+              </p>
+            </div>
+            <img
+              class="whats-new__image"
+              src="./images/whats-new.jpg"
+              alt="iPhone 14"
+              width="350" height="370" loading="lazy"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="color">
+      <div class="section__inner container">
+        <h2 class="section__title">Выбери свой цвет</h2>
+        <div class="section__body">
+          <div class="catalog">
+            <ul class="catalog__list">
+              <li class="catalog__item">
+                <article class="product-card">
+                  <img
+                    class="product-card__image"
+                    src="./images/catalog/1.jpg"
+                    alt="Silver iPhone"
+                    width="240" height="320" loading="lazy"
+                  />
+                  <h3 class="product-card__title">Silver</h3>
+                  <div class="product-card__subtitle">Серебристый</div>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-card">
+                  <img
+                    class="product-card__image"
+                    src="./images/catalog/2.jpg"
+                    alt="Deep purple iPhone"
+                    width="240" height="320" loading="lazy"
+                  />
+                  <h3 class="product-card__title">Deep purple</h3>
+                  <div class="product-card__subtitle">Темно фиолетовый</div>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-card">
+                  <img
+                    class="product-card__image"
+                    src="./images/catalog/3.jpg"
+                    alt="Gold iPhone"
+                    width="240" height="320" loading="lazy"
+                  />
+                  <h3 class="product-card__title">Gold</h3>
+                  <div class="product-card__subtitle">Золотой</div>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-card">
+                  <img
+                    class="product-card__image"
+                    src="./images/catalog/4.jpg"
+                    alt="Space Black iPhone"
+                    width="240" height="320" loading="lazy"
+                  />
+                  <h3 class="product-card__title">Space Black</h3>
+                  <div class="product-card__subtitle">Космический черный</div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="order">
+      <div class="section__inner container">
+        <div class="feedback">
+          <div class="feedback__body">
+            <form class="feedback__form form">
+              <h2 class="form__title">Хочешь iPhone 14 Pro?</h2>
+              <div class="form__body">
+                <label class="form__item">
+                  <input
+                    class="input"
+                    name="name"
+                    type="text"
+                    placeholder="Ваше имя"
+                  />
+                </label>
+                <label class="form__item">
+                  <input
+                    class="input"
+                    name="phone"
+                    type="tel"
+                    placeholder="Номер телефона"
+                  />
+                </label>
+              </div>
+              <footer class="form__footer">
+                <div class="form__description">В ближайшее время наш менеджер свяжется с Вами</div>
+                <button class="form__submit-button button" type="submit">
+                  ЗАКАЗАТЬ
+                </button>
+              </footer>
+            </form>
+          </div>
+          <img
+            class="feedback__image"
+            src="./images/order.jpg"
+            alt=""
+            width="600" height="600" loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__inner container">
+      <div class="footer__policy">
+        <a href="/" target="_blank">Политика конфиденциальности</a>
+      </div>
+      <div class="footer__logo-wrapper">
+        <a class="footer__logo logo" href="/" title="Перейти на главную страницу">
+          <img
+            class="logo__image"
+            src="./images/logo.svg"
+            alt="Apple Logo"
+            width="40" height="48" loading="lazy"
+          />
+        </a>
+      </div>
+      <div class="footer__contacts contacts">
+        <a class="contacts__link" href="tel:+380504565656">+38 050-456-56-56</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
